@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>MARS IT School Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top-bar">
+    <div class="logo">
+      <img src="./image 2.svg" alt="Mars Logo">
+    </div>
+    <div class="lang-switch" id="langBtn">
+      <span class="lang-icon">🌐</span>
+      <span id="langLabel">O’zbek</span>
+    </div>
+  </header>
+
+  <div class="login-box">
+    <div class="login-header">
+      <img src="./image 2.svg" alt="" class="small-logo">
+     
+      <a href="" class="offer-link" id="offerLink">Offerta imzolash</a>
+      
+    </div>
+
+    <h2 id="welcomeText">Spacega xush kelibsiz</h2>
+
+    <div class="role-switch">
+      <button id="studentBtn" class="active">O’quvchiman</button>
+      <button id="parentBtn">Ota-onaman</button>
+    </div>
+
+    <input type="text" id="username" placeholder="Modme Id or Phone number">
+
+    <div class="password-box">
+      <input type="password" id="password" placeholder="Password">
+      <span class="toggle-password">👁️</span>
+    </div>
+
+    <button class="btn" id="loginBtn">Подтвердить</button>
+    <div class="message" id="message"></div>
+
+    <button class="qr-btn" id="qrBtn">QR code orqali kirish</button>
+    <div class="qr-popup" id="qrPopup">
+      <span class="close-qr" id="closeQr">✖</span>
+      <img src="./qr-code.png" alt="QR Scanner">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
